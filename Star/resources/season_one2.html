@@ -1,17 +1,16 @@
+<!doctype html>
 <html>
-
-<body>  <-- first body consist of main stuff --> 
-<nav>
-  <a href="index.html>Home</a>
-  <a href="characters.html">Characters</a>
-  <a href="season_one.html">Season One</a>
-</nav>
-<h1>Star vs. the Forces of Evil</h1>
+<body id="home"> 
+    <nav>
+       <a href="index.html">Home</a>
+       <a href="characters.html">Characters</a>
+       <a href="season_one.html">Season One</a>
+    </nav>
+    <h1>Star vs. the Forces of Evil</h1> 
 <img src = "https://media.giphy.com/media/EqaHCIczZPYKk/giphy.gif?response_id=591e3f75a755c13b580552ba">
 <h1>Season One</h1>
-<body>
 
- <-- Notes to Instructors: below is a table of data. I want to make it clear the meta and style attributes is something I do not fully grasp. The rest of the code I fully understand. I wanted to see if I can try to find a rookie way of pulling in data from an external source. There was sql, attractive but too complex. This is using raw txt file of said data. Importing it into librecalc but delimiting in my case tabs. I learned that from this, librecalc, could create an html of this data. It works, but I was hoping to be able to use sql. 
+ <--! Notes to Instructors: below is a table of data. I want to make it clear the meta and style attributes is something I do not fully grasp. The rest of the code is basically using the <table> tag.  wanted to see if I can try to find a rookie way of pulling in data from an external source. Create raw data txt file of data. Import to librecalc delimiting it. Librecalc, could create an html of this data. 
 reference: https://www.quora.com/How-do-I-make-a-dynamic-web-tool-using-an-Excel-sheet-as-the-only-data-source-option/answer/Sathish-Kishore?srid=UvUJ --> 
 <head>
 	
@@ -259,11 +258,13 @@ reference: https://www.quora.com/How-do-I-make-a-dynamic-web-tool-using-an-Excel
 	</tr>
 </table>
 <!-- ************************************************************************** -->
+ <footer id="site_footer">
+   <nav>
+      <a href="index.html>Home</a>
+      <a href="characters.html">Characters</a>
+      <a href="season_one.html">Season One</a>
+   </nav>
+ </footer>
 </body>
-<footer><nav>
-  <a href="index.html>Home</a>
-  <a href="characters.html">Characters</a>
-  <a href="season_one.html">Season One</a>
-</nav></footer>
 </html> 
 
